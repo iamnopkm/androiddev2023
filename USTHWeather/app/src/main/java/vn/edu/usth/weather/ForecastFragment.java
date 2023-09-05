@@ -65,12 +65,12 @@ public class ForecastFragment extends Fragment {
 
 
         View view = inflater.inflate(R.layout.fragment_forecast, container, false);
-        view.setBackgroundColor(0x20FF0000);
-        LinearLayout linearLayout = view.findViewById(R.id.linearlayout);
-        linearLayout.setOrientation(LinearLayout.VERTICAL);
-        ImageView imageView = new ImageView(getContext());
-        imageView.setImageResource(R.drawable.icon);
-        linearLayout.addView(imageView);
+//        view.setBackgroundColor(0x20FF0000);
+        LinearLayout linearLayout = view.findViewById(R.id.forecast);
+//        linearLayout.setOrientation(LinearLayout.VERTICAL);
+//        ImageView imageView = new ImageView(getContext());
+//        imageView.setImageResource(R.drawable.icon);
+//        linearLayout.addView(imageView);
         return view;
     }
 }

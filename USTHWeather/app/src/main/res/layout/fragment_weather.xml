@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="500px"
+    android:layout_height="500px"
+    android:id="@+id/weather"
+    android:background="#03fca1"
+    tools:context=".WeatherFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="12C\nCloudy" />
+
+    <ImageView
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:layout_centerInParent="true"
+        android:src="@drawable/icon" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="Paris" />
+
+</RelativeLayout>
